@@ -1,0 +1,91 @@
+   /* GENERALI */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .contenitore{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  header, main, footer{
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+      /* / GENERALI */
+      /* HEADER */
+  .logo, .menu{
+  margin-bottom: 10px;
+  }
+  
+  .logo{
+    height: 100px;
+    background-color: aqua;
+  }
+  
+  .menu{
+    background-color: black;
+    height: 30px;
+  }
+  
+  .immagine{
+    height: 300px;
+    background-color: brown;
+    
+  }
+  
+      /* / HEADER  */
+      /* MAIN  */
+  .titoli{
+    height: 90px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+  }
+  
+  .container{
+    width: 100%;
+    height: 350px;
+    
+  }
+  
+  
+  .sinistra, .centro, .destra{
+    float: left;
+  }
+  
+  .sinistra{
+    width: 20%;
+    height: 98%;
+    background-color: darkblue;
+  }
+  
+  .destra{
+    width: 20%;
+    height: 98%;
+    background-color: darkmagenta;
+  }
+  
+  .centro{
+    height: 98%;
+    width: 56%;
+    background-color: darkgreen;
+    margin: 0 2%;
+  }
+      /* / MAIN  */
+      /* FOOTER  */
+  footer{
+    width: 100%;
+    height: 20px;
+    background-color: darkred;
+  }
+      /* / FOOTER  */
+      
