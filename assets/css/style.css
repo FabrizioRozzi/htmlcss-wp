@@ -1,91 +1,123 @@
-   /* GENERALI */
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+    /* GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+header, main, footer{
+  width: 100%;
+  margin-bottom: 10px; 
+}
+    /* / GENERALI */
+    /* HEADER */
+.logo, .menu{
+margin-bottom: 40px;
+}
+
+.logo{
+  height: 100px;
+
+}
+
+.logo img{
+  height: 100px;
+  border-right: 1px solid gray ;
+  padding-right: 30px;
+}
+
+.menu{
   
-  .clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+  height: 30px;
+}
+nav li{
+  list-style-type: none;
+  display: inline;
+  text-transform: uppercase;
+  padding-left: 15px;
+
+}
+
+nav li a{
+  text-decoration: none;
+  color: grey;
+}
+
+nav li a:hover {
+color: black;
+}
+.banner{
+  width: 100%;
+  height: 650px;
+}
+
+.banner {
+  width: 100%;
+  height: 750px;
+  background: url(../img/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
   
-  .contenitore{
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-  }
+}
   
-  header, main, footer{
-    width: 100%;
-    margin-bottom: 10px; 
-  }
-      /* / GENERALI */
-      /* HEADER */
-  .logo, .menu{
+}
+
+    /* / HEADER  */
+    /* MAIN  */
+.titoli{
+  height: 90px;
+  background-color: cornflowerblue;
   margin-bottom: 10px;
-  }
+}
+
+.container{
+  width: 100%;
+  height: 350px;
   
-  .logo{
-    height: 100px;
-    background-color: aqua;
-  }
-  
-  .menu{
-    background-color: black;
-    height: 30px;
-  }
-  
-  .immagine{
-    height: 300px;
-    background-color: brown;
+}
+
+
+.sinistra, .centro, .destra{
+  float: left;
+}
+
+.sinistra{
+  width: 20%;
+  height: 98%;
+  background-color: darkblue;
+}
+
+.destra{
+  width: 20%;
+  height: 98%;
+  background-color: darkmagenta;
+}
+
+.centro{
+  height: 98%;
+  width: 56%;
+  background-color: darkgreen;
+  margin: 0 2%;
+}
+    /* / MAIN  */
+    /* FOOTER  */
+footer{
+  width: 100%;
+  height: 20px;
+  background-color: darkred;
+}
+    /* / FOOTER  */
     
-  }
-  
-      /* / HEADER  */
-      /* MAIN  */
-  .titoli{
-    height: 90px;
-    background-color: cornflowerblue;
-    margin-bottom: 10px;
-  }
-  
-  .container{
-    width: 100%;
-    height: 350px;
-    
-  }
-  
-  
-  .sinistra, .centro, .destra{
-    float: left;
-  }
-  
-  .sinistra{
-    width: 20%;
-    height: 98%;
-    background-color: darkblue;
-  }
-  
-  .destra{
-    width: 20%;
-    height: 98%;
-    background-color: darkmagenta;
-  }
-  
-  .centro{
-    height: 98%;
-    width: 56%;
-    background-color: darkgreen;
-    margin: 0 2%;
-  }
-      /* / MAIN  */
-      /* FOOTER  */
-  footer{
-    width: 100%;
-    height: 20px;
-    background-color: darkred;
-  }
-      /* / FOOTER  */
-      
