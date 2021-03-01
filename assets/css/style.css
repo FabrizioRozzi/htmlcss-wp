@@ -12,6 +12,12 @@
   clear: both;
 }
 
+.overlay{
+  height: 100%;
+  background-color: rgba(0,0,0, 0.2);
+  
+}
+
 .contenitore{
   width: 80%;
   height: auto;
@@ -28,15 +34,10 @@ header, main, footer{
 margin-bottom: 40px;
 }
 
-.logo{
-  height: 100px;
-
-}
-
 .logo img{
   height: 100px;
   border-right: 1px solid gray ;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .menu{
@@ -57,7 +58,8 @@ nav li a{
 }
 
 nav li a:hover {
-color: black;
+color: cornflowerblue;
+
 }
 
 
@@ -69,6 +71,7 @@ color: black;
   color: white;
   border-radius: 10px;
   display: inline-block;
+  overflow: hidden;
 }
 
 
